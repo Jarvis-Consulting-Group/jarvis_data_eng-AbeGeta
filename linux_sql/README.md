@@ -6,7 +6,7 @@ This project requires designing and implementing an MVP that helps the Jarvis Li
 # Start a psql instance using psql_docker.sh
 bash scripts/psql_docker.sh [start | stop | create] [db_username] [db_pasword]
 
-Create the database tables in PSQL with ddl.sql:
+# Create the database tables in PSQL with ddl.sql:
 psql -h psql_host -U psql_user -d db_name -f sql/ddl.sql
 
 # Insert hardware specs data into DB with host_info.sh 
