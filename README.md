@@ -17,6 +17,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng-AbeGeta](h
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng-AbeGeta/tree/master/linux_sql)]: Designed and implemented an MVP that helps the Jarvis Linux Cluster Administration (LCA) team to record the hardware specifications of each node of a Linux cluster and monitor node resource usage. The data collected is stored in an RDBMS to generate reports for future resource planning purposes. The users of this system are the LCA team, who will be writing SQL queries to answer business questions. Technologies used in this project include Linux command lines, Bash scripts, PostgreSQL, Docker, IDE, and networking protocols. The Linux cluster of 10 nodes/servers is internally connected through a switch and able to communicate through internal IPv4 addresses. The project aims to provide a solution for the LCA team to monitor the resources used by each node and plan future resource requirements effectively.
 
+**RDBMS and SQL** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng-AbeGeta/tree/master/sql)]: Created SQL queries to retrieve data from multiple tables. A PostgreSQL instance using docker was utilized to load sample data and test the results of the queries. Git was used as version control for the project.
+
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng-AbeGeta/tree/master/core_java)]:
       
   - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
