@@ -22,7 +22,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng-AbeGeta](h
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng-AbeGeta/tree/master/core_java)]:
       
   - Twitter App: 
-  - JDBC App: 
+  - JDBC App: The JDBC application performs CRUD operations (Create, Read, Update, Delete) on a database using the JDBC API. A PostgreSQL database running in a Docker container was used, along with Maven to manage packages and dependencies and Git for version control.
   - Grep App: The Java Grep application mimics the grep command found in Linux. It searches for a text pattern recursively in a designated directory and writes matching lines to a file. The program was created using IntelliJ IDEA, an IDE with capabilities for building Java applications with Maven. The core java package was employed for reading and writing files using BufferedWriter, Stream API, and Lambda functions to navigate directories and files and write lines to a file. To build the project, Maven is used to create a JAR file and manage dependencies such as SLF4J for logging. Docker was used to deploy the application using a Dockerfile.
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng-AbeGeta/tree/master/springboot)]: Not Started
